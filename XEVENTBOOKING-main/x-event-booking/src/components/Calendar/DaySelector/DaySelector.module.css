@@ -1,0 +1,20 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
+.swiperslide {
+    width: calc(100% / 3 - 20px) !important;
+    overflow: hidden;
+}
+
+.swiperStyles {
+    padding: 0 50px;
+    width: 100%;
+}
+
+@media(max-width:900px) {
+    .swiperStyles {
+        padding: 0;
+    }
+    .swiperslide {
+        width: auto!important;
+    }
+}
+/* CRIO_SOLUTION_END_MODULE_ONE */
